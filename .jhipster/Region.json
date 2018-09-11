@@ -1,0 +1,23 @@
+{
+    "name": "Region",
+    "fields": [
+        {
+            "fieldName": "regionId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "regionName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20180909095922",
+    "entityTableName": "region",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

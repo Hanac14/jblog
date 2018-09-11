@@ -1,0 +1,32 @@
+{
+    "name": "Country",
+    "fields": [
+        {
+            "fieldName": "countryId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "countryName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "region",
+            "otherEntityName": "region",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "country"
+        }
+    ],
+    "changelogDate": "20180909095921",
+    "entityTableName": "country",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "jblog.com"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "monolith",
+    "baseName": "jblog",
+    "packageName": "jblog.com",
+    "packageFolder": "jblog/com",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzU4YmNkZGVlNGM2ODE5ODc1NWNmMTU0NmU1NzlkNDMyMzc1YjRiN2JjMGEwNTUzNDBhZDZkNTU0ZWVkZDZjY2Y2Mzg5NmJhZWY1MDI2YTRlMTdhOGYyZjZlY2VjMTU0YjJkYTZkODQ5ZjdiMzRkYjIxZWFkOTE1YjA2ZjNmM2U=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}
